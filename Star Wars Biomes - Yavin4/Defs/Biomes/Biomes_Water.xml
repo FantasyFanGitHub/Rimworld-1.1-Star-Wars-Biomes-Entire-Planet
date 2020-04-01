@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- [Ocean]  [Lake] -->
+
+  <BiomeDef>
+    <defName>Ocean</defName>
+    <label>Yavin IV</label>
+    <description>Yavin IV was the jungle-covered fourth moon in orbit around the red gas giant Yavin. [Ocean]</description>
+    <workerClass>BiomeWorker_Ocean</workerClass>
+    <canBuildBase>false</canBuildBase>
+    <allowRoads>false</allowRoads>
+    <allowRivers>false</allowRivers>
+    <hasVirtualPlants>false</hasVirtualPlants>
+    <texture>World/Biomes/Yavin4</texture>
+    <impassable>true</impassable>
+  </BiomeDef>
+
+  <BiomeDef>
+    <defName>Lake</defName>
+    <label>Yavin IV</label>
+    <description>Yavin IV was the jungle-covered fourth moon in orbit around the red gas giant Yavin. [Lake]</description>
+    <workerClass>BiomeWorker_Ocean</workerClass>
+    <canBuildBase>false</canBuildBase>
+    <allowRoads>false</allowRoads>
+    <allowRivers>false</allowRivers>
+    <hasVirtualPlants>false</hasVirtualPlants>
+    <texture>World/Biomes/Yavin4</texture>
+    <impassable>true</impassable>
+  </BiomeDef>
+  
+</Defs>

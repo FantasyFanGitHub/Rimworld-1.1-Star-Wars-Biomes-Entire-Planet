@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <TerrainDef ParentName="WaterShallowBase">
+    <defName>ScarifWater</defName>
+    <label>shallow ocean water</label>
+    <texturePath>Terrain/ScarifWaterRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>396</renderPrecedence>
+    <driesTo>Sand</driesTo>
+  </TerrainDef>
+ 
+</Defs>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+  
+  <TerrainDef>
+    <defName>MustafarRock</defName>
+    <label>mustafar rock</label>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>350</renderPrecedence>
+    <pathCost>4</pathCost>
+    <texturePath>Terrain/MustafarSoil</texturePath>
+    <statBases>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-1</Cleanliness>
+    </statBases>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+      <li>Diggable</li>
+    </affordances>
+    <fertility>0</fertility>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WaterShallowBase">
+    <defName>MustafarLava</defName>
+    <label>lava</label>
+    <texturePath>Terrain/MustafarLava</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>394</renderPrecedence>
+    <driesTo>MustafarRock</driesTo>
+  </TerrainDef>
+ 
+</Defs>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- [Ocean]  [Lake] -->
+
+  <BiomeDef>
+    <defName>Ocean</defName>
+    <label>mustafar</label>
+    <description>Mustafar is a small volcanic planet located in the Mustafar system.</description>
+    <workerClass>BiomeWorker_Ocean</workerClass>
+    <canBuildBase>false</canBuildBase>
+    <allowRoads>false</allowRoads>
+    <allowRivers>false</allowRivers>
+    <hasVirtualPlants>false</hasVirtualPlants>
+    <texture>World/Biomes/MustafarOcean</texture>
+    <impassable>true</impassable>
+  </BiomeDef>
+
+  <BiomeDef>
+    <defName>Lake</defName>
+    <label>mustafar</label>
+    <description>Mustafar is a small volcanic planet located in the Mustafar system.</description>
+    <workerClass>BiomeWorker_Ocean</workerClass>
+    <canBuildBase>false</canBuildBase>
+    <allowRoads>false</allowRoads>
+    <allowRivers>false</allowRivers>
+    <hasVirtualPlants>false</hasVirtualPlants>
+    <texture>World/Biomes/MustafarOcean</texture>
+    <impassable>true</impassable>
+  </BiomeDef>
+  
+</Defs>
