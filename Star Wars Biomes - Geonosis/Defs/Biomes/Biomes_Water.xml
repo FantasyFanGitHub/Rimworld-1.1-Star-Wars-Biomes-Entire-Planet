@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- [Ocean]  [Lake] -->
+
+  <BiomeDef>
+    <defName>Ocean</defName>
+    <label>geonosis</label>
+    <description>Geonosis, referred to as Geonosia by some natives, is the desert home planet of the Geonosians. [Ocean]</description>
+    <workerClass>BiomeWorker_Ocean</workerClass>
+    <canBuildBase>false</canBuildBase>
+    <allowRoads>false</allowRoads>
+    <allowRivers>false</allowRivers>
+    <hasVirtualPlants>false</hasVirtualPlants>
+    <texture>World/Biomes/Geonosis</texture>
+    <impassable>true</impassable>
+  </BiomeDef>
+
+  <BiomeDef>
+    <defName>Lake</defName>
+    <label>geonosis</label>
+    <description>Geonosis, referred to as Geonosia by some natives, is the desert home planet of the Geonosians. [Lake]</description>
+    <workerClass>BiomeWorker_Ocean</workerClass>
+    <canBuildBase>false</canBuildBase>
+    <allowRoads>false</allowRoads>
+    <allowRivers>false</allowRivers>
+    <hasVirtualPlants>false</hasVirtualPlants>
+    <texture>World/Biomes/Geonosis</texture>
+    <impassable>true</impassable>
+  </BiomeDef>
+  
+</Defs>

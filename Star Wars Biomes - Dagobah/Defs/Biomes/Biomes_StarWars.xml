@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BiomeDef Name="SWBiomeBase" Abstract="True">
+    <animalDensity>4.3</animalDensity>
+    <plantDensity>0.80</plantDensity>
+    <settlementSelectionWeight>0.6</settlementSelectionWeight>
+    <movementDifficulty>4</movementDifficulty>
+    <texture>World/Biomes/Dagobah</texture>
+    <forageability>0.75</forageability>
+    <foragedFood>RawBerries</foragedFood>
+    <wildPlantRegrowDays>15</wildPlantRegrowDays>
+    <soundsAmbient>
+      <li>Ambient_NightInsects_Standard</li>
+    </soundsAmbient>
+    <diseaseMtbDays>40</diseaseMtbDays>
+    <diseases>
+      <li>
+        <diseaseInc>Disease_Flu</diseaseInc>
+        <commonality>100</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_Plague</diseaseInc>
+        <commonality>100</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_Malaria</diseaseInc>
+        <commonality>100</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_GutWorms</diseaseInc>
+        <commonality>50</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_FibrousMechanites</diseaseInc>
+        <commonality>30</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_SensoryMechanites</diseaseInc>
+        <commonality>30</commonality>
+      </li>
+
+      <li>
+        <diseaseInc>Disease_MuscleParasites</diseaseInc>
+        <commonality>50</commonality>
+      </li>
+
+      <li>
+        <diseaseInc>Disease_AnimalFlu</diseaseInc>
+        <commonality>100</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_AnimalPlague</diseaseInc>
+        <commonality>100</commonality>
+      </li>
+    </diseases>
+    <terrainsByFertility>
+      <li>
+        <terrain>Soil</terrain>
+        <min>-999</min>
+        <max>0.87</max>
+      </li>
+      <li>
+        <terrain>SoilRich</terrain>
+        <min>0.87</min>
+        <max>999</max>
+      </li>
+    </terrainsByFertility>
+    <terrainPatchMakers>
+      <li>
+        <perlinFrequency>0.04</perlinFrequency>
+        <thresholds>
+          <li>
+            <terrain>MarshyTerrain</terrain>
+            <min>0.32</min>
+            <max>999</max>
+          </li>
+        </thresholds>
+      </li>
+      <li>
+        <perlinFrequency>0.027</perlinFrequency>
+        <thresholds>
+          <li>
+            <terrain>SoilRich</terrain>
+            <min>-0.12</min>
+            <max>0.32</max>
+          </li>
+          <li>
+            <terrain>Mud</terrain>
+            <min>0.32</min>
+            <max>0.6</max>
+          </li>
+          <li>
+            <terrain>WaterShallow</terrain>
+            <min>0.6</min>
+            <max>999</max>
+          </li>
+        </thresholds>
+      </li>
+    </terrainPatchMakers>
+    <baseWeatherCommonalities>
+      <Clear>18</Clear>
+      <Fog>15</Fog>
+      <Rain>3</Rain>
+      <DryThunderstorm>0</DryThunderstorm>
+      <RainyThunderstorm>1</RainyThunderstorm>
+      <FoggyRain>4</FoggyRain>
+      <SnowGentle>0</SnowGentle>
+      <SnowHard>0</SnowHard>
+    </baseWeatherCommonalities>
+    <wildPlants>
+      <Plant_TallGrass>3.2</Plant_TallGrass>
+      <Plant_Chokevine>0.8</Plant_Chokevine>
+      <Plant_Bush>0.2</Plant_Bush>
+      <Plant_TreeWillow>1.0</Plant_TreeWillow>
+      <Plant_TreeCypress>1.0</Plant_TreeCypress>
+      <Plant_HealrootWild>0.05</Plant_HealrootWild>
+    </wildPlants>
+    <wildAnimals>
+      <Hare>1.0</Hare>
+      <Squirrel>1.0</Squirrel>
+      <Rat>1.0</Rat>
+      <Tortoise>0.6</Tortoise>
+      <WildBoar>0.5</WildBoar>
+      <Raccoon>0.5</Raccoon>
+      <Ibex>0.5</Ibex>
+      <Boomrat>0.4</Boomrat>
+      <Wolf_Timber>0.07</Wolf_Timber>
+    </wildAnimals>
+    <allowedPackAnimals>
+      <li>Muffalo</li>
+      <li>Alpaca</li>
+    </allowedPackAnimals>
+  </BiomeDef>
+
+  <BiomeDef ParentName="SWBiomeBase">
+    <defName>TemperateForest</defName>
+    <label>dagobah</label>
+    <description>Dagobah is a planet in the Dagobah system, and one of the purest places in the galaxy within the Force. A remote world of swamps and forests.</description>
+    <workerClass>BiomeWorker_TemperateForest</workerClass>
+  </BiomeDef>
+
+  <BiomeDef ParentName="SWBiomeBase">
+    <defName>TemperateSwamp</defName>
+    <label>dagobah</label>
+    <description>Dagobah is a planet in the Dagobah system, and one of the purest places in the galaxy within the Force. A remote world of swamps and forests.</description>
+    <workerClass>BiomeWorker_TemperateSwamp</workerClass>
+  </BiomeDef>
+
+  <BiomeDef ParentName="SWBiomeBase">
+    <defName>TropicalRainforest</defName>
+    <label>dagobah</label>
+    <description>Dagobah is a planet in the Dagobah system, and one of the purest places in the galaxy within the Force. A remote world of swamps and forests.</description>
+    <workerClass>BiomeWorker_TropicalRainforest</workerClass>
+  </BiomeDef>
+
+  <BiomeDef ParentName="SWBiomeBase">
+    <defName>TropicalSwamp</defName>
+    <label>dagobah</label>
+    <description>Dagobah is a planet in the Dagobah system, and one of the purest places in the galaxy within the Force. A remote world of swamps and forests.</description>
+    <workerClass>BiomeWorker_TropicalSwamp</workerClass>
+  </BiomeDef>
+
+  <BiomeDef ParentName="SWBiomeBase">
+    <defName>AridShrubland</defName>
+    <label>dagobah</label>
+    <description>Dagobah is a planet in the Dagobah system, and one of the purest places in the galaxy within the Force. A remote world of swamps and forests.</description>
+    <workerClass>BiomeWorker_AridShrubland</workerClass>
+  </BiomeDef>
+
+  <BiomeDef ParentName="SWBiomeBase">
+    <defName>Desert</defName>
+    <label>dagobah</label>
+    <description>Dagobah is a planet in the Dagobah system, and one of the purest places in the galaxy within the Force. A remote world of swamps and forests.</description>
+    <workerClass>BiomeWorker_Desert</workerClass>
+  </BiomeDef>
+
+  <BiomeDef ParentName="SWBiomeBase">
+    <defName>ExtremeDesert</defName>
+    <label>dagobah</label>
+    <description>Dagobah is a planet in the Dagobah system, and one of the purest places in the galaxy within the Force. A remote world of swamps and forests.</description>
+    <workerClass>BiomeWorker_ExtremeDesert</workerClass>
+  </BiomeDef>
+
+  <BiomeDef ParentName="SWBiomeBase">
+    <defName>BorealForest</defName>
+    <label>dagobah</label>
+    <description>Dagobah is a planet in the Dagobah system, and one of the purest places in the galaxy within the Force. A remote world of swamps and forests.</description>
+    <workerClass>BiomeWorker_BorealForest</workerClass>
+  </BiomeDef>
+
+  <BiomeDef ParentName="SWBiomeBase">
+    <defName>Tundra</defName>
+    <label>dagobah</label>
+    <description>Dagobah is a planet in the Dagobah system, and one of the purest places in the galaxy within the Force. A remote world of swamps and forests.</description>
+    <workerClass>BiomeWorker_Tundra</workerClass>
+  </BiomeDef>
+
+  <BiomeDef ParentName="SWBiomeBase">
+    <defName>ColdBog</defName>
+    <label>dagobah</label>
+    <description>Dagobah is a planet in the Dagobah system, and one of the purest places in the galaxy within the Force. A remote world of swamps and forests.</description>
+    <workerClass>BiomeWorker_ColdBog</workerClass>
+  </BiomeDef>
+
+  <BiomeDef ParentName="SWBiomeBase">
+    <defName>IceSheet</defName>
+    <label>dagobah</label>
+    <description>Dagobah is a planet in the Dagobah system, and one of the purest places in the galaxy within the Force. A remote world of swamps and forests.</description>
+    <workerClass>BiomeWorker_IceSheet</workerClass>
+  </BiomeDef>
+
+  <BiomeDef ParentName="SWBiomeBase">
+    <defName>SeaIce</defName>
+    <label>dagobah</label>
+    <description>Dagobah is a planet in the Dagobah system, and one of the purest places in the galaxy within the Force. A remote world of swamps and forests.</description>
+    <workerClass>BiomeWorker_SeaIce</workerClass>
+  </BiomeDef>
+
+</Defs>

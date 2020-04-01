@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+  
+  <TerrainDef ParentName="WaterShallowBase">
+    <defName>WaterOceanKamino</defName>
+    <label>deep ocean water</label>
+    <texturePath>Terrain/Surfaces/WaterDeepRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>396</renderPrecedence>
+    <driesTo>Gravel</driesTo>
+  </TerrainDef>
+  
+</Defs>

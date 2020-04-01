@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- [Ocean]  [Lake] -->
+
+  <BiomeDef>
+    <defName>Ocean</defName>
+    <label>kamino</label>
+    <description>Kamino is an aquatic planet located in an extragalactic star system that straggled south of the Rishi Maze satellite galaxy and beyond the larger galaxy. [Ocean]</description>
+    <workerClass>BiomeWorker_Ocean</workerClass>
+    <canBuildBase>false</canBuildBase>
+    <allowRoads>false</allowRoads>
+    <allowRivers>false</allowRivers>
+    <hasVirtualPlants>false</hasVirtualPlants>
+    <texture>World/Biomes/Kamino</texture>
+    <impassable>true</impassable>
+  </BiomeDef>
+
+  <BiomeDef>
+    <defName>Lake</defName>
+    <label>kamino</label>
+    <description>Kamino is an aquatic planet located in an extragalactic star system that straggled south of the Rishi Maze satellite galaxy and beyond the larger galaxy. [Lake]</description>
+    <workerClass>BiomeWorker_Ocean</workerClass>
+    <canBuildBase>false</canBuildBase>
+    <allowRoads>false</allowRoads>
+    <allowRivers>false</allowRivers>
+    <hasVirtualPlants>false</hasVirtualPlants>
+    <texture>World/Biomes/Kamino</texture>
+    <impassable>true</impassable>
+  </BiomeDef>
+  
+</Defs>

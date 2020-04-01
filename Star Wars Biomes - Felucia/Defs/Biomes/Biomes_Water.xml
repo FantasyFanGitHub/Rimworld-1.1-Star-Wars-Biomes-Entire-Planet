@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- [Ocean]  [Lake] -->
+
+  <BiomeDef>
+    <defName>Ocean</defName>
+    <label>Felucia</label>
+    <description>Felucia is a colorful, humid jungle planet located in the Felucia system of the galaxy's Outer Rim Territories. [Ocean]</description>
+    <workerClass>BiomeWorker_Ocean</workerClass>
+    <canBuildBase>false</canBuildBase>
+    <allowRoads>false</allowRoads>
+    <allowRivers>false</allowRivers>
+    <hasVirtualPlants>false</hasVirtualPlants>
+    <texture>World/Biomes/Felucia</texture>
+    <impassable>true</impassable>
+  </BiomeDef>
+
+  <BiomeDef>
+    <defName>Lake</defName>
+    <label>Felucia</label>
+    <description>Felucia is a colorful, humid jungle planet located in the Felucia system of the galaxy's Outer Rim Territories. [Lake]</description>
+    <workerClass>BiomeWorker_Ocean</workerClass>
+    <canBuildBase>false</canBuildBase>
+    <allowRoads>false</allowRoads>
+    <allowRivers>false</allowRivers>
+    <hasVirtualPlants>false</hasVirtualPlants>
+    <texture>World/Biomes/Felucia</texture>
+    <impassable>true</impassable>
+  </BiomeDef>
+  
+</Defs>

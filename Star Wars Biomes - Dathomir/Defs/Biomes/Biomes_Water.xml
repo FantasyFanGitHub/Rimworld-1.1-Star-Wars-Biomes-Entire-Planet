@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- [Ocean]  [Lake] -->
+
+  <BiomeDef>
+    <defName>Ocean</defName>
+    <label>dathomir</label>
+    <description>Dathomir, nicknamed the "Rancor planet", was a remote, neutral planet in the Quelli sector and the home of the Nightsisters. The planet, lit red by its central star, had numerous continents that were overrun with vegetation, forests, and swamplands. [Ocean]</description>
+    <workerClass>BiomeWorker_Ocean</workerClass>
+    <canBuildBase>false</canBuildBase>
+    <allowRoads>false</allowRoads>
+    <allowRivers>false</allowRivers>
+    <hasVirtualPlants>false</hasVirtualPlants>
+    <texture>World/Biomes/DathomirOcean</texture>
+    <impassable>true</impassable>
+  </BiomeDef>
+
+  <BiomeDef>
+    <defName>Lake</defName>
+    <label>dathomir</label>
+    <description>Dathomir, nicknamed the "Rancor planet", was a remote, neutral planet in the Quelli sector and the home of the Nightsisters. The planet, lit red by its central star, had numerous continents that were overrun with vegetation, forests, and swamplands. [Lake]</description>
+    <workerClass>BiomeWorker_Ocean</workerClass>
+    <canBuildBase>false</canBuildBase>
+    <allowRoads>false</allowRoads>
+    <allowRivers>false</allowRivers>
+    <hasVirtualPlants>false</hasVirtualPlants>
+    <texture>World/Biomes/DathomirOcean</texture>
+    <impassable>true</impassable>
+  </BiomeDef>
+  
+</Defs>
